@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.raven"
+       name="raven"
+       version="5.7.2"
+       provider-name="Andrew Leech">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Raven is a Python client for Sentry</summary>
+    <description>Packed for Kodi from https://pypi.python.org/pypi/raven</description>
+    <license>https://github.com/getsentry/raven-python/blob/master/LICENSE</license>
+    <platform>all</platform>
+    <source>https://github.com/andrewleech/script.module.raven</source>
+  </extension>
+</addon>
